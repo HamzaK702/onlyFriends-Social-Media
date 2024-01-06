@@ -11,7 +11,7 @@ import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "theme";
 import Navbar from "scenes/navbar";
 
-
+//pushing to main for vercel
 
 function App() {
   const isAdmin = Boolean(useSelector((state) => state.admin));

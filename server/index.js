@@ -55,6 +55,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
+
 const PORT = process.env.SERVER_PORT || 3001;
 mongoose.set("strictQuery" , true);
 mongoose
