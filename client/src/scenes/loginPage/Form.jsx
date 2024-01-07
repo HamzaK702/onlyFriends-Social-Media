@@ -67,13 +67,14 @@ const Form = () => {
       formData.append(value, values[value]);
     }
     formData.append("picturePath", values.picture.name);
-
+    console.log("register was called");
     const savedUserResponse = await fetch(
       "https://onlyfriends.cyclic.app/register",
       {
         method: "POST",
         body: formData,
       }
+      
     );
     const savedUser = await savedUserResponse.json();
     onSubmitProps.resetForm();
