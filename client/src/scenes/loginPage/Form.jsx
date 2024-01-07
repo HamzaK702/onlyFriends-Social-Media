@@ -69,7 +69,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://onlyfriends.cyclic.app/auth/register",
+      "https://onlyfriends.cyclic.app/register",
       {
         method: "POST",
         body: formData,
