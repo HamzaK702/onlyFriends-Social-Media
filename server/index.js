@@ -48,6 +48,11 @@ const upload = multer({ storage });
 app.post("/auth/register", upload.single("picture"), register);
 app.post("/posts", verifyToken, upload.single("picture"), createPost);
 
+app.get('/hello', (req, res) => {
+  res.send('Hello World!');
+});
+
+
 
 /* ROUTES */
 app.use("/auth", authRoutes);
