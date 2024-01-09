@@ -8,7 +8,7 @@ import WidgetWrapper from "components/WidgetWrapper";
 //import UserImage from "components/UserImage";
 
 import Navbar from "scenes/navbar";
-const REACT_APP_SERVER_URL = 'https://onlyfriends.cyclic.app';
+const REACT_APP_SERVER_URL = 'http://localhost:3001';
 
 const AdminPage = ({ userId, isProfile = false }) => {
   const dispatch = useDispatch();

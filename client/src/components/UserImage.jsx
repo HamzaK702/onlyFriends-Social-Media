@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from '@mui/material'
 
-const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
+const REACT_APP_SERVER_URL='http://localhost:3001'
  
 const UserImage = ({image ,size="60px"}) => {
     return (

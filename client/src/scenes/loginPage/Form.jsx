@@ -69,7 +69,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
     console.log("register was called");
     const savedUserResponse = await fetch(
-      "https://onlyfriends.cyclic.app/register",
+      "http://localhost:3001/register",
       {
         method: "POST",
         body: formData,
@@ -86,7 +86,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
 
-    const loggedInResponse = await fetch("https://onlyfriends.cyclic.app/auth/login", {
+    const loggedInResponse = await fetch("http://localhost:3001/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

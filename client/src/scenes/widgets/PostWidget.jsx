@@ -14,7 +14,7 @@ import {
   import { useDispatch, useSelector } from "react-redux";
   import { setPost } from "state";
   
-  const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
+  const REACT_APP_SERVER_URL='http://localhost:3001'
 
   const PostWidget = ({
     postId,

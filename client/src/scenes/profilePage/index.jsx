@@ -14,7 +14,7 @@ const ProfilePage = () => {
   const {_id} = useSelector((state)=> state.user);
   const token = useSelector((state) => state.token);
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
-  const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
+  const REACT_APP_SERVER_URL='http://localhost:3001'
 
   const getUser = async () => {
     const response = await fetch(`${REACT_APP_SERVER_URL}/users/${userId}`, {

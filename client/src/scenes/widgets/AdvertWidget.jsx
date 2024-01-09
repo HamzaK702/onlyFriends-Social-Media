@@ -7,7 +7,7 @@ const AdvertWidget = () => {
   const dark = palette.neutral.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
-  const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
+  const REACT_APP_SERVER_URL='http://localhost:3001'
   return (
     <WidgetWrapper>
       <FlexBetween>

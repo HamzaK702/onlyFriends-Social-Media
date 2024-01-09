@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
-const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
+const REACT_APP_SERVER_URL='http://localhost:3001'
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
   const { palette } = useTheme();
