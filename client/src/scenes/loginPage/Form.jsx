@@ -36,16 +36,16 @@ const loginSchema = yup.object().shape({
 const initialValuesRegister = {
   firstName: "",
   lastName: "",
-  email: "hr@gmail.com",
-  password: "hiring",
+  email: "",
+  password: "",
   location: "",
-  occupation: "",
+  occupation: "Free hosting! Can't Register!",
   picture: "",
 };
 
 const initialValuesLogin = {
-  email: "",
-  password: "",
+  email: "hr@gmail.com",
+  password: "hiring",
 };
 
 const Form = () => {
