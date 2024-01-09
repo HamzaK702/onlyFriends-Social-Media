@@ -7,7 +7,7 @@ import UserImage from './UserImage';
 import FlexBetween from './FlexBetween';
 import {setPost} from "state";
 import DeleteIcon from "@mui/icons-material/Delete";
-const REACT_APP_SERVER_URL='http://localhost:3001'
+const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
 
 function Comment({userId,comment,postId}) {
 const token = useSelector((state)=>state.token)

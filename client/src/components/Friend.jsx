@@ -18,7 +18,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const primaryDark = palette.primary.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
-  const REACT_APP_SERVER_URL='http://localhost:3001'
+  const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
   
   const isFriend = friends.find((friend) => friend._id === friendId);
   

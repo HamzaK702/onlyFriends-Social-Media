@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setFriends } from "state";
 import "./userimage.css"
-const REACT_APP_SERVER_URL='http://localhost:3001'
+const REACT_APP_SERVER_URL='https://onlyfriends.cyclic.app'
 
 const FriendListWidget = ({ userId }) => {
   const dispatch = useDispatch();
